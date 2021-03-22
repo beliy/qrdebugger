@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		280DF418260886DE00133C1C /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DF417260886DE00133C1C /* ResultsView.swift */; };
+		280DF41B26088FB700133C1C /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280DF41A26088FB700133C1C /* VisionViewController.swift */; };
+		287667C92608A701008C889A /* MLKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287667C82608A701008C889A /* MLKitViewController.swift */; };
+		2895132C25F9EB6500EA3EF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895132B25F9EB6500EA3EF1 /* AppDelegate.swift */; };
+		2895132E25F9EB6500EA3EF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895132D25F9EB6500EA3EF1 /* SceneDelegate.swift */; };
+		2895133025F9EB6500EA3EF1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895132F25F9EB6500EA3EF1 /* ContentView.swift */; };
+		2895133225F9EB6500EA3EF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2895133125F9EB6500EA3EF1 /* Assets.xcassets */; };
+		2895133525F9EB6500EA3EF1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2895133425F9EB6500EA3EF1 /* Preview Assets.xcassets */; };
+		2895133825F9EB6500EA3EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2895133625F9EB6500EA3EF1 /* LaunchScreen.storyboard */; };
+		2895134925F9EF8D00EA3EF1 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895134825F9EF8D00EA3EF1 /* CameraView.swift */; };
+		2895135125F9F61C00EA3EF1 /* AVFoundationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895135025F9F61C00EA3EF1 /* AVFoundationViewController.swift */; };
+		8DBFC8FF352D0010E56C2D91 /* Pods_QRDebugger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 752D1144A712CFF5D8574654 /* Pods_QRDebugger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		079A59540809BEADC1734736 /* Pods-QRDebugger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRDebugger.debug.xcconfig"; path = "Target Support Files/Pods-QRDebugger/Pods-QRDebugger.debug.xcconfig"; sourceTree = "<group>"; };
+		280DF417260886DE00133C1C /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
+		280DF41A26088FB700133C1C /* VisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		287667C82608A701008C889A /* MLKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLKitViewController.swift; sourceTree = "<group>"; };
+		2895132825F9EB6500EA3EF1 /* QRDebugger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRDebugger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2895132B25F9EB6500EA3EF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2895132D25F9EB6500EA3EF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2895132F25F9EB6500EA3EF1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2895133125F9EB6500EA3EF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2895133425F9EB6500EA3EF1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2895133725F9EB6500EA3EF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2895133925F9EB6500EA3EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2895134825F9EF8D00EA3EF1 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		2895135025F9F61C00EA3EF1 /* AVFoundationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVFoundationViewController.swift; sourceTree = "<group>"; };
+		752D1144A712CFF5D8574654 /* Pods_QRDebugger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRDebugger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE721CDBAEE2D70F4F414040 /* Pods-QRDebugger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRDebugger.release.xcconfig"; path = "Target Support Files/Pods-QRDebugger/Pods-QRDebugger.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2895132525F9EB6500EA3EF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DBFC8FF352D0010E56C2D91 /* Pods_QRDebugger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2895131F25F9EB6500EA3EF1 = {
+			isa = PBXGroup;
+			children = (
+				2895132A25F9EB6500EA3EF1 /* QRDebugger */,
+				2895132925F9EB6500EA3EF1 /* Products */,
+				460B8A864C4CAFDF49617270 /* Pods */,
+				D8EC494F4088E689B554931A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2895132925F9EB6500EA3EF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2895132825F9EB6500EA3EF1 /* QRDebugger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2895132A25F9EB6500EA3EF1 /* QRDebugger */ = {
+			isa = PBXGroup;
+			children = (
+				2895134F25F9F60800EA3EF1 /* Controllers */,
+				2895134125F9EB7D00EA3EF1 /* Views */,
+				2895133325F9EB6500EA3EF1 /* Preview Content */,
+				2895134025F9EB6D00EA3EF1 /* Storyboards */,
+				2895133125F9EB6500EA3EF1 /* Assets.xcassets */,
+				2895132D25F9EB6500EA3EF1 /* SceneDelegate.swift */,
+				2895132B25F9EB6500EA3EF1 /* AppDelegate.swift */,
+				2895133925F9EB6500EA3EF1 /* Info.plist */,
+			);
+			path = QRDebugger;
+			sourceTree = "<group>";
+		};
+		2895133325F9EB6500EA3EF1 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2895133425F9EB6500EA3EF1 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2895134025F9EB6D00EA3EF1 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				2895133625F9EB6500EA3EF1 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		2895134125F9EB7D00EA3EF1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2895132F25F9EB6500EA3EF1 /* ContentView.swift */,
+				2895134825F9EF8D00EA3EF1 /* CameraView.swift */,
+				280DF417260886DE00133C1C /* ResultsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2895134F25F9F60800EA3EF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2895135025F9F61C00EA3EF1 /* AVFoundationViewController.swift */,
+				280DF41A26088FB700133C1C /* VisionViewController.swift */,
+				287667C82608A701008C889A /* MLKitViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		460B8A864C4CAFDF49617270 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				079A59540809BEADC1734736 /* Pods-QRDebugger.debug.xcconfig */,
+				CE721CDBAEE2D70F4F414040 /* Pods-QRDebugger.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8EC494F4088E689B554931A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				752D1144A712CFF5D8574654 /* Pods_QRDebugger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2895132725F9EB6500EA3EF1 /* QRDebugger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2895133C25F9EB6500EA3EF1 /* Build configuration list for PBXNativeTarget "QRDebugger" */;
+			buildPhases = (
+				3731F649771FC4ED013A2896 /* [CP] Check Pods Manifest.lock */,
+				2895132425F9EB6500EA3EF1 /* Sources */,
+				2895132525F9EB6500EA3EF1 /* Frameworks */,
+				2895132625F9EB6500EA3EF1 /* Resources */,
+				58CC1F296C25AD616E90AD30 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRDebugger;
+			productName = QRDebugger;
+			productReference = 2895132825F9EB6500EA3EF1 /* QRDebugger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2895132025F9EB6500EA3EF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2895132725F9EB6500EA3EF1 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2895132325F9EB6500EA3EF1 /* Build configuration list for PBXProject "QRDebugger" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2895131F25F9EB6500EA3EF1;
+			productRefGroup = 2895132925F9EB6500EA3EF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2895132725F9EB6500EA3EF1 /* QRDebugger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2895132625F9EB6500EA3EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2895133825F9EB6500EA3EF1 /* LaunchScreen.storyboard in Resources */,
+				2895133525F9EB6500EA3EF1 /* Preview Assets.xcassets in Resources */,
+				2895133225F9EB6500EA3EF1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3731F649771FC4ED013A2896 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QRDebugger-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58CC1F296C25AD616E90AD30 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRDebugger/Pods-QRDebugger-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QRDebugger/Pods-QRDebugger-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QRDebugger/Pods-QRDebugger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2895132425F9EB6500EA3EF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2895132C25F9EB6500EA3EF1 /* AppDelegate.swift in Sources */,
+				280DF418260886DE00133C1C /* ResultsView.swift in Sources */,
+				2895135125F9F61C00EA3EF1 /* AVFoundationViewController.swift in Sources */,
+				2895132E25F9EB6500EA3EF1 /* SceneDelegate.swift in Sources */,
+				287667C92608A701008C889A /* MLKitViewController.swift in Sources */,
+				280DF41B26088FB700133C1C /* VisionViewController.swift in Sources */,
+				2895133025F9EB6500EA3EF1 /* ContentView.swift in Sources */,
+				2895134925F9EF8D00EA3EF1 /* CameraView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2895133625F9EB6500EA3EF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2895133725F9EB6500EA3EF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2895133A25F9EB6500EA3EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2895133B25F9EB6500EA3EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2895133D25F9EB6500EA3EF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 079A59540809BEADC1734736 /* Pods-QRDebugger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"QRDebugger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRDebugger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.beliy.QRDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2895133E25F9EB6500EA3EF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE721CDBAEE2D70F4F414040 /* Pods-QRDebugger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_ASSET_PATHS = "\"QRDebugger/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = QRDebugger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = pro.beliy.QRDebugger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2895132325F9EB6500EA3EF1 /* Build configuration list for PBXProject "QRDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2895133A25F9EB6500EA3EF1 /* Debug */,
+				2895133B25F9EB6500EA3EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2895133C25F9EB6500EA3EF1 /* Build configuration list for PBXNativeTarget "QRDebugger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2895133D25F9EB6500EA3EF1 /* Debug */,
+				2895133E25F9EB6500EA3EF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2895132025F9EB6500EA3EF1 /* Project object */;
+}
